@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+body {
+    margin: 0;
+    padding: 0;
+    /* font-family: serif; */
+}
+
+.explanatoly-text{
+    text-align:center;
+}
+
+.product_image{
+    text-align:left;
+    width: 600px;
+    height: 350px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+p.name {
+    font-size:1.5em;
+    float: left;
+}
+
+p.kannin {
+    font-size: 1.3em;
+    float: right;
+}
+
+#course table {
+    width: 100px;
+    border-collapse: collapse;
+    margin-bottom: 16px;
+}
+
+#course th,
+#course td {
+    border: 1px solid #c7c7c7;
+    padding: 8px;
+}
+
+#course th {
+    background-color: #f1ede4;
+    text-align: left;
+    width: 5em;
+}
+
+table{
+    width: 100%;
+    border-spacing: 0;
+}
+
+table td{
+    border-bottom: solid 2px #ddd;
+    text-align: center;
+    padding: 10px 0;
+}
+
+h1 {
+    background-color: #716961;
+    margin: 10px;
+    padding: 4px;
+    text-align: center;
+}
+
+a {
+    font-size: 1.2em;
+    /* float: left; */
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+
+}
+
+a.btn-radius-solid {
+    background: #f1e767;
+    background: -webkit-gradient(linear, left top, left bottom, from(#f1e767), to(#feb645));
+    background: -webkit-linear-gradient(top, #f1e767 0%, #feb645 100%);
+    background: linear-gradient(to bottom, #f1e767 0%, #feb645 100%);
+    color: black;
+    padding: 8px;
+    border: 1px solid #b7a077;
+    border-radius: 5px;
+    text-decoration: none;
+}
+  
+a.btn-radius-solid:hover {
+    background: -webkit-gradient(linear, left bottom, left top, from(#f1e767), to(#feb645));
+    background: -webkit-linear-gradient(bottom, #f1e767 0%, #feb645 100%);
+    background: linear-gradient(to top, #f1e767 0%, #feb645 100%);
+}
+
