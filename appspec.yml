@@ -1,9 +1,9 @@
-version: 0.0  
-os: linux     
-files:        
+version: 0.0  # 0.0固定
+os: linux     # デプロイ先サーバーのOS
+files:        # アプリケーションの配列場所
   - source: /ec_site/
     destination: /home/ec2-user/php
-permissions:  
+permissions:  # 配列ディレクトリーのバーミッション
   - object: /home/ec2-user/php
     owner: ec2-user
     group: nginx
